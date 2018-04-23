@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d2be4bf9-2e8b-4660-b711-1f665e88b2dd"
+  name="invest_Business_place_Domain_Model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="58bec199-c015-4541-8b46-ba0586a7a0ae"
+        LastKnownName="Innovator Registration"
+        LastKnownLocation="Package_1135.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0039dfc9-10b7-4d90-baa4-1e83dbcdb335"
+        name="Invester_register::User_Control"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1f032fee-a913-4358-a9d0-7a4015e766e7"
+            isDerived="false"
+            sourceEndRoleName="Invester_register::User_Control"
+            targetEndRoleName="User_Control"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="68428d5a-9ce2-487d-a659-e116312bd751"
+              LastKnownName="User_Control"
+              LastKnownLocation="Package_1441.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d6567f3-0bd0-4d58-a2df-691ff4022fa9"
+                  name="Invester_register::User_Control"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f296f816-d94a-4897-ad62-bcafafb893a5"
+                  name="User_Control"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="ad781a80-9fc1-4154-a900-5e9c5860ced5"
+            name="btnRegister_Click"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="5b190be0-e102-4c5b-9473-5deb85b3107e"
+            name="clear"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="69a24b34-f030-4595-9035-c9abd73c5cb4"
+            name="investerregister"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0bb28236-2cd9-410b-b442-e0734e638f05"
+            name="Investerregister_load"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c941b8cd-3003-46b6-a319-e9e6c557430b"
+        LastKnownName="Innovator_log_in"
+        LastKnownLocation="Package_1430.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f2bb4007-6366-4d2a-8733-b44ff6e8796d"
+        name="void" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2bc2d505-2ee9-444c-a20b-a988d63c2bc2"
+        LastKnownName="Invester_Log_in"
+        LastKnownLocation="Package_1441.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e6620383-412d-47af-9a33-1a173c7636ea"
+        LastKnownName="Reser_Invester_password"
+        LastKnownLocation="Package_1446.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cee61b9d-1516-4844-9c93-059d037d0c80"
+        LastKnownName="Reset_Innovator_password"
+        LastKnownLocation="Package_1447.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c233259f-2a20-4e07-a040-eb73830b0781"
+        name="voiid" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c412885f-2aeb-4c38-970b-efd497768f9d"
+        LastKnownName="Data_User"
+        LastKnownLocation="Package_1829.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1d1e6e8f-69bb-4216-96d6-ea0b72ff069c"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="64ece31a-1fcc-44db-a609-4088a253b541"
+        name="Svoid" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="97487cf3-4723-4b84-9cef-6a8030d4a8e5"
+        name="User_list&lt;User_data&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1a45cc80-8bd9-44cd-9d47-fe80c6535660"
+        name="User_data" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
